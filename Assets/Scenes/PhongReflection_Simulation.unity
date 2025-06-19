@@ -353,8 +353,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fac83cc80017974781fb9724a89270a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Ambient: 1
-  Diffuse: 1
+  Ambient: 0
+  Diffuse: 0
   Specular: 1
 --- !u!135 &1031944640
 SphereCollider:

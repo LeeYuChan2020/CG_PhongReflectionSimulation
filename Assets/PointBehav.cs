@@ -43,7 +43,7 @@ public class PointBehav : MonoBehaviour
         // vector R 은 정반사 단위벡터
         // R + L = 2 * (L∙N) * N
         // R = 2 *(L∙N) * N - L
-        Vector3 R = 2 * Vector3.Dot(L, N) * N - L;
+        Vector3 R = (2 * Vector3.Dot(L, N) * N - L).normalized;
 
         // vector V 는 표면에서 카메라로의 단위벡터
         Vector3 V = (GetCameraPosition() - _position).normalized;
